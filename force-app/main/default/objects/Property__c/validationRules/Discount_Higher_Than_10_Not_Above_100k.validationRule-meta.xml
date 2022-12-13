@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Higher_Than_10_Not_Above_100k</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+Discount__c &gt; 0.1,
+Price__c &gt; 100000
+)</errorConditionFormula>
+    <errorMessage>Discount higher than 10% not allowed at Properties with Price higher than 100 000.</errorMessage>
+</ValidationRule>

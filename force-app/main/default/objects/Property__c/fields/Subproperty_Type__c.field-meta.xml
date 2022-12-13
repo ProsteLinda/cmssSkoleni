@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subproperty_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Subproperty Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sklep</fullName>
+                <default>true</default>
+                <label>Sklep</label>
+            </value>
+            <value>
+                <fullName>Garáž</fullName>
+                <default>false</default>
+                <label>Garáž</label>
+            </value>
+            <value>
+                <fullName>Terasa</fullName>
+                <default>false</default>
+                <label>Terasa</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
